@@ -2,6 +2,7 @@
 
 @theme {
   --color-praimary:#131B2E;
+  --color-header:#0058BE;
 }
 @layer base{
 
