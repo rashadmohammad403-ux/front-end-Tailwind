@@ -223,6 +223,9 @@
   .m-3 {
     margin: calc(var(--spacing) * 3);
   }
+  .m-auto {
+    margin: auto;
+  }
   .mx-4 {
     margin-inline: calc(var(--spacing) * 4);
   }
