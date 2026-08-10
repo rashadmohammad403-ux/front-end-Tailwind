@@ -646,26 +646,14 @@
   .pt-30 {
     padding-top: calc(var(--spacing) * 30);
   }
-  .pt-40 {
-    padding-top: calc(var(--spacing) * 40);
-  }
-  .pt-50 {
-    padding-top: calc(var(--spacing) * 50);
-  }
-  .pt-150 {
-    padding-top: calc(var(--spacing) * 150);
-  }
   .pr-0 {
     padding-right: 0px;
   }
+  .pr-5 {
+    padding-right: calc(var(--spacing) * 5);
+  }
   .pr-10 {
     padding-right: calc(var(--spacing) * 10);
-  }
-  .pr-12 {
-    padding-right: calc(var(--spacing) * 12);
-  }
-  .pr-15 {
-    padding-right: calc(var(--spacing) * 15);
   }
   .pr-20 {
     padding-right: calc(var(--spacing) * 20);
@@ -673,35 +661,29 @@
   .pr-30 {
     padding-right: calc(var(--spacing) * 30);
   }
-  .pr-40 {
-    padding-right: calc(var(--spacing) * 40);
+  .pr-43 {
+    padding-right: calc(var(--spacing) * 43);
+  }
+  .pr-45 {
+    padding-right: calc(var(--spacing) * 45);
+  }
+  .pr-50 {
+    padding-right: calc(var(--spacing) * 50);
+  }
+  .pr-55 {
+    padding-right: calc(var(--spacing) * 55);
   }
   .pr-61 {
     padding-right: calc(var(--spacing) * 61);
   }
-  .pr-70 {
-    padding-right: calc(var(--spacing) * 70);
-  }
-  .pr-78 {
-    padding-right: calc(var(--spacing) * 78);
-  }
-  .pr-80 {
-    padding-right: calc(var(--spacing) * 80);
-  }
   .pr-81 {
     padding-right: calc(var(--spacing) * 81);
   }
-  .pr-85 {
-    padding-right: calc(var(--spacing) * 85);
-  }
-  .pr-90 {
-    padding-right: calc(var(--spacing) * 90);
-  }
-  .pr-92 {
-    padding-right: calc(var(--spacing) * 92);
-  }
   .pr-93 {
     padding-right: calc(var(--spacing) * 93);
+  }
+  .pr-450 {
+    padding-right: calc(var(--spacing) * 450);
   }
   .pb-1 {
     padding-bottom: var(--spacing);
@@ -720,6 +702,9 @@
   }
   .pb-30 {
     padding-bottom: calc(var(--spacing) * 30);
+  }
+  .pl-2 {
+    padding-left: calc(var(--spacing) * 2);
   }
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
@@ -773,9 +758,6 @@
   }
   .text-\[\#C6C6CD\] {
     color: #C6C6CD;
-  }
-  .text-\[\#\] {
-    color: #;
   }
   .text-\[\#a0a2a5\] {
     color: #a0a2a5;
@@ -907,11 +889,26 @@
     .lg\:justify-between {
       justify-content: space-between;
     }
+    .lg\:gap-10 {
+      gap: calc(var(--spacing) * 10);
+    }
     .lg\:px-12 {
       padding-inline: calc(var(--spacing) * 12);
     }
     .lg\:py-20 {
       padding-block: calc(var(--spacing) * 20);
+    }
+    .lg\:pr-10 {
+      padding-right: calc(var(--spacing) * 10);
+    }
+    .lg\:pr-81 {
+      padding-right: calc(var(--spacing) * 81);
+    }
+    .lg\:pr-93 {
+      padding-right: calc(var(--spacing) * 93);
+    }
+    .lg\:pl-5 {
+      padding-left: calc(var(--spacing) * 5);
     }
     .lg\:pl-30 {
       padding-left: calc(var(--spacing) * 30);
