@@ -539,6 +539,12 @@
   .border-\[\#C6C6CD\] {
     border-color: #C6C6CD;
   }
+  .border-\[\#E1BFB5\] {
+    border-color: #E1BFB5;
+  }
+  .border-white {
+    border-color: var(--color-white);
+  }
   .border-y-\[\#6c6569\] {
     border-block-color: #6c6569;
   }
