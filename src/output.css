@@ -982,6 +982,9 @@
   .underline {
     text-decoration-line: underline;
   }
+  .decoration-300 {
+    text-decoration-thickness: 300px;
+  }
   .opacity-20 {
     opacity: 20%;
   }
@@ -1016,6 +1019,10 @@
   }
   .transition-discrete {
     transition-behavior: allow-discrete;
+  }
+  .duration-300 {
+    --tw-duration: 300ms;
+    transition-duration: 300ms;
   }
   .ease-out {
     --tw-ease: var(--ease-out);
@@ -1242,6 +1249,10 @@
   inherits: false;
   initial-value: solid;
 }
+@property --tw-duration {
+  syntax: "*";
+  inherits: false;
+}
 @property --tw-ease {
   syntax: "*";
   inherits: false;
@@ -1272,6 +1283,7 @@
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-outline-style: solid;
+      --tw-duration: initial;
       --tw-ease: initial;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
