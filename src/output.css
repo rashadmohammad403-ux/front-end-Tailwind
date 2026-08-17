@@ -198,9 +198,6 @@
   .right-2 {
     right: calc(var(--spacing) * 2);
   }
-  .right-3 {
-    right: calc(var(--spacing) * 3);
-  }
   .bottom-2 {
     bottom: calc(var(--spacing) * 2);
   }
@@ -298,9 +295,6 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
-  .mt-52 {
-    margin-top: calc(var(--spacing) * 52);
-  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
@@ -357,6 +351,10 @@
   }
   .table {
     display: table;
+  }
+  .size-4 {
+    width: calc(var(--spacing) * 4);
+    height: calc(var(--spacing) * 4);
   }
   .h-2 {
     height: calc(var(--spacing) * 2);
@@ -427,9 +425,6 @@
   .justify-center {
     justify-content: center;
   }
-  .gap-0 {
-    gap: 0px;
-  }
   .gap-1 {
     gap: var(--spacing);
   }
@@ -457,9 +452,6 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
-  .gap-11 {
-    gap: calc(var(--spacing) * 11);
-  }
   .gap-12 {
     gap: calc(var(--spacing) * 12);
   }
@@ -468,9 +460,6 @@
   }
   .gap-30 {
     gap: calc(var(--spacing) * 30);
-  }
-  .gap-40 {
-    gap: calc(var(--spacing) * 40);
   }
   .gap-41 {
     gap: calc(var(--spacing) * 41);
@@ -481,9 +470,6 @@
   .gap-46 {
     gap: calc(var(--spacing) * 46);
   }
-  .gap-47 {
-    gap: calc(var(--spacing) * 47);
-  }
   .gap-50 {
     gap: calc(var(--spacing) * 50);
   }
@@ -493,23 +479,8 @@
   .gap-73\.5 {
     gap: calc(var(--spacing) * 73.5);
   }
-  .gap-100 {
-    gap: calc(var(--spacing) * 100);
-  }
   .gap-109 {
     gap: calc(var(--spacing) * 109);
-  }
-  .gap-110 {
-    gap: calc(var(--spacing) * 110);
-  }
-  .gap-111 {
-    gap: calc(var(--spacing) * 111);
-  }
-  .gap-112 {
-    gap: calc(var(--spacing) * 112);
-  }
-  .gap-115 {
-    gap: calc(var(--spacing) * 115);
   }
   .gap-117 {
     gap: calc(var(--spacing) * 117);
@@ -519,12 +490,6 @@
   }
   .gap-128 {
     gap: calc(var(--spacing) * 128);
-  }
-  .gap-130 {
-    gap: calc(var(--spacing) * 130);
-  }
-  .gap-150 {
-    gap: calc(var(--spacing) * 150);
   }
   .gap-x-3 {
     column-gap: calc(var(--spacing) * 3);
@@ -611,9 +576,6 @@
   }
   .border-\[\#E1BFB5\] {
     border-color: #E1BFB5;
-  }
-  .border-\[\#\] {
-    border-color: #;
   }
   .border-y-\[\#6c6569\] {
     border-block-color: #6c6569;
@@ -995,9 +957,6 @@
   .text-\[\#E2E8F0\] {
     color: #E2E8F0;
   }
-  .text-\[\#\] {
-    color: #;
-  }
   .text-\[\#a0a2a5\] {
     color: #a0a2a5;
   }
@@ -1082,9 +1041,6 @@
     }
     .md\:flex {
       display: flex;
-    }
-    .md\:grid {
-      display: grid;
     }
     .md\:hidden {
       display: none;
